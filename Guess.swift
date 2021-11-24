@@ -22,7 +22,6 @@ func calculatePrice() throws {
     // Random number generator.
     let randomNumber = Int.random(in: 1..<6+1)
     var runOnce = 0
-    print(randomNumber)
 
     // Inputs.
     print("Guess the random number from 1 to 6: ")
