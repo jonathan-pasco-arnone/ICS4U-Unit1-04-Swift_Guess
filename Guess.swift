@@ -17,7 +17,7 @@ enum MyError: Error {
     case invalidInteger(String)
 }
 
-func calculatePrice() throws {
+func guessNumber() throws {
 
     // Random number generator.
     let randomNumber = Int.random(in: 1..<6+1)
@@ -73,7 +73,7 @@ func calculatePrice() throws {
 
 do {
     // Calls the function to be tested for errors.
-    try calculatePrice()
+    try guessNumber()
 } catch {
     print("That was an invalid input")
 }
